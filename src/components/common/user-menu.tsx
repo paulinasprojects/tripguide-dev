@@ -27,7 +27,7 @@ const UserMenu = () => {
           <DropdownMenuItem className="p-4 font-bold font-dm-sans">Profile Settings</DropdownMenuItem>
           <DropdownMenuItem className="p-4 font-bold font-dm-sans">My Reservations</DropdownMenuItem>
           <DropdownMenuItem>
-            <Button size="sm" className="w-full">Log out</Button>
+            <Button size="sm" className="w-full font-bold font-dm-sans text-white">Log out</Button>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
