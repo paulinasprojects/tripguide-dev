@@ -425,3 +425,10 @@ export const accomodationsData = [
     icon: Breakfast,
   },
 ];
+
+export const propertyImages = [
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730392958/apartment_qp9fj9.webp",
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730392958/apartment3_q3uwet.webp",
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730392958/apartment4_nuxdow.webp",
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730392958/apartment2_bvdicq.webp",
+];

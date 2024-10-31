@@ -1,4 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+'use client';
+
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { searchHotelsData, accomodationsData } from "@/lib/data";
@@ -6,10 +9,12 @@ import { TbPlane } from "react-icons/tb";
 import { Calendar, Flag, MapPin } from "lucide-react";
 
 const SearchHotelCard = () => {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col gap-10 ">
       {searchHotelsData.map((data) => (
-      <div key={data.id} className="rounded-[20px] xl:pr-10 md:pr-0 max-sm:pr-0 border-[1px] border-slate-200 max-sm:m-5 md:m-2 lg:m-0">
+      <div key={data.id} className="rounded-[20px] xl:pr-10 md:pr-0 max-sm:pr-0 border-[1px] border-slate-200 max-sm:m-5 md:m-2 lg:m-0 cursor-pointer" onClick={() => router.push(`/hotel/1`)}>
         <div className="flex gap-[30px] xl:flex-row max-sm:flex-col lg:flex-col">
           <img src={data.image} alt="" className="lg:rounded-[20px] xl:rounded-none max-sm:rounded-[20px]" />
           <div className="flex flex-col  xl:pt-10 md:pt-5 lg:pt-0 max-sm:ml-5 lg:m-5 xl:m-0">
