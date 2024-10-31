@@ -1,3 +1,6 @@
+"use client"
+
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { MapPin } from 'lucide-react';
 import { DatePicker } from '@/components/ui/date-time-picker'
@@ -10,12 +13,14 @@ import { Button } from '@/components/ui/button'
 
 const Hoteltab = () => {
   const [selectedItem, setSelectedItem] = useState("Where are you going?");
+  const router = useRouter();
 
   const handleSelect = (location: string) => {
     setSelectedItem(location);
   };
 
   return (
+    <>
     <div className='flex gap-3 mt-4 max-sm:flex-col'>
       <DropdownMenu>
         <DropdownMenuTrigger className=''>
@@ -70,10 +75,11 @@ const Hoteltab = () => {
         <DatePicker/>
       </div>
       </div>
-      <div className='lg:ml-[54px] md:mt-0 max-sm:ml-0 max-sm:mt-2.5'>
-      <Button className='w-[150px] h-[70px] max-sm:w-[295px] max-sm:h-[48px] rounded-[10px] bg-[#316BFF] text-xl font-medium font-dm-sans cursor-pointer'>Search</Button>
+      <div className='lg:ml-[54px] md:mt-0 max-sm:ml-0 max-sm:mt-2.5 relative '>
+      <Button className='w-[150px] h-[70px] max-sm:w-[295px] max-sm:h-[48px] rounded-[10px] bg-[#316BFF] text-xl font-medium font-dm-sans cursor-pointer' onClick={() => router.push("/search")}>Search</Button>
       </div>
     </div>
+    </>
   )
 }
 

@@ -1,3 +1,9 @@
+import Shuttle from "/public/shuttle.svg";
+import Breakfast from "/public/breakfast.svg";
+import Parking from "/public/parking.svg";
+import Safe from "/public/safe.svg";
+import Wifi from "/public/wifi.svg";
+
 export const HeroPlaces = [
   {
     id: 1,
@@ -261,5 +267,161 @@ export const travelYourPassionData = [
     title: "Hiking Trips",
     rating: 4.8,
     reviews: 122,
+  },
+];
+
+export const popularFilters = [
+  {
+    id: 1,
+    label: "Hotels",
+  },
+  {
+    id: 2,
+    label: "Breakfast and Dinner",
+  },
+  {
+    id: 3,
+    label: "Free Cancellation",
+  },
+  {
+    id: 4,
+    label: "No prepayment",
+  },
+];
+
+export const propertyTypesFilters = [
+  {
+    id: 1,
+    type: "Hotels",
+  },
+  {
+    id: 2,
+    type: "Apartments",
+  },
+  {
+    id: 3,
+    type: "Resort",
+  },
+];
+
+export const yourBudgetFilters = [
+  {
+    id: 1,
+    budget: "Less than $75",
+  },
+  {
+    id: 2,
+    budget: "$75 to $125",
+  },
+  {
+    id: 3,
+    budget: "$200 to $300",
+  },
+  {
+    id: 4,
+    budget: "Greater than $300",
+  },
+];
+
+export const facilitiesFilters = [
+  {
+    id: 1,
+    facilityName: "Outdoors Sports",
+    numberOfFacilities: 108,
+  },
+  {
+    id: 2,
+    facilityName: "Barbeque",
+    numberOfFacilities: 141,
+  },
+  {
+    id: 3,
+    facilityName: "Room Service",
+    numberOfFacilities: 108,
+  },
+  {
+    id: 4,
+    facilityName: "Living Room",
+    numberOfFacilities: 108,
+  },
+  {
+    id: 5,
+    facilityName: "Swimming Pool",
+    numberOfFacilities: 141,
+  },
+  {
+    id: 6,
+    facilityName: "Spa",
+    numberOfFacilities: 108,
+  },
+];
+
+export const searchHotelsData = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730282506/zurich_ridacm.png",
+    name: "Zurich Switzerland",
+    rating: 4.8,
+    reviews: 122,
+    location: "Zurich, Switzerland",
+    hotelName: "Zurich Hotel, Switzerland",
+    dates: "15.05.2021-16.05.2021",
+    departure: "Zurich",
+    price: 320,
+  },
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730282506/zurich-1_ugnsn4.png",
+    name: "Zurich Switzerland",
+    rating: 4.8,
+    reviews: 122,
+    location: "Zurich, Switzerland",
+    hotelName: "Zurich Hotel, Switzerland",
+    dates: "15.05.2021-16.05.2021",
+    departure: "Zurich",
+    price: 320,
+  },
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730282507/zurich2_a7yr2d.png",
+    name: "Zurich Switzerland",
+    rating: 4.8,
+    reviews: 122,
+    location: "Zurich, Switzerland",
+    hotelName: "Zurich Hotel, Switzerland",
+    dates: "15.05.2021-16.05.2021",
+    departure: "Zurich",
+    price: 320,
+  },
+];
+
+export const accomodationsData = [
+  {
+    id: 1,
+    name: "Free Wifi",
+    icon: Wifi,
+  },
+  {
+    id: 2,
+    name: "Free parking",
+    icon: Parking,
+  },
+  {
+    id: 3,
+    name: "Airport shuttle",
+    icon: Shuttle,
+  },
+  {
+    id: 4,
+    name: "Safe",
+    icon: Safe,
+  },
+  {
+    id: 4,
+    name: "Breakfast",
+    icon: Breakfast,
   },
 ];

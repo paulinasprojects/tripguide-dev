@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className="relative">
             <input type="text" className="bg-white md:w-[468px] p-4 h-[65px] max-sm:w-[294px] rounded-[4px]" placeholder="Type your email here" />
-            <button className="absolute right-2 top-1.5 md:w-[130px] max-sm:w-[120px] h-[55px] bg-[#353945] text-white rounded-[4px] text-md font-bold font-dm-sans">Subscribe</button>
+            <button className="absolute right-2 top-1.5 md:w-[130px] max-sm:w-[120px] h-[55px] bg-[#353945] text-white rounded-[4px] text-md font-bold font-dm-sans hover:bg-blue80">Subscribe</button>
           </div>
         </div>
       </div>

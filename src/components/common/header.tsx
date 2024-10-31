@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image"
 import { Bell } from "lucide-react"
 import logo from '/public/logo-horizontal.svg';
@@ -7,11 +8,13 @@ const Header = () => {
   return (
     <div className="bg-white p-5">
       <div className="flex items-center justify-between">
-      <Image
-        src={logo}
-        alt="logo"
-        className="lg:w-[148px] lg:h-[38px] max-sm:w-[96px] max-sm:h-[28px]"
-      />
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="logo"
+            className="lg:w-[148px] lg:h-[38px] max-sm:w-[96px] max-sm:h-[28px]"
+          />
+        </Link>
       <div className="flex items-center gap-5">
         <div className="relative">
           <Bell width={24} height={24} className="cursor-pointer"/>
