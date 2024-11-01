@@ -9,7 +9,7 @@ const HotelCategories = () => {
       <span className="bg-[#EAEEFA] text-sm text-[#0B3BA7] rounded-[5px] font-medium font-dm-sans p-1">Hotels</span>
       <span className="bg-[#FCEBF1] text-sm text-[#E96594] rounded-[5px] font-medium font-dm-sans p-1">Building</span>
       <span className="bg-[#FBEEE8] text-sm text-[#DC6E3D] rounded-[5px] font-medium font-dm-sans p-1">Top Value</span>
-     <div className="ml-[25px] flex gap-2.5 items-center max-sm:ml-2">
+     <div className="ml-[25px] flex gap-2.5 items-center max-sm:ml-2 max-sm:hidden">
       <FaStar className="text-yellow-500 size-6"/>
       <FaStar className="text-yellow-500 size-6"/>
       <FaStar className="text-yellow-500 size-6"/>

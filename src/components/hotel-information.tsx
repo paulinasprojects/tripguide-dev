@@ -1,5 +1,6 @@
 import HotelAmenities from "./hotel-amenities"
 import HotelFeatures from "./hotel-features"
+import HotelPriceSection from "./hotel-price-section"
 
 const HotelInformation = () => {
   return (
@@ -21,7 +22,9 @@ const HotelInformation = () => {
           <HotelAmenities/>
         </div>
         {/* Right */}
-        <div>Right</div>
+        <div>
+          <HotelPriceSection/>
+        </div>
       </div>
     </div>
   )
