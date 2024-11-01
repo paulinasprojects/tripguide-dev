@@ -432,3 +432,30 @@ export const propertyImages = [
   "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730392958/apartment4_nuxdow.webp",
   "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730392958/apartment2_bvdicq.webp",
 ];
+
+export const selectRoomData = [
+  {
+    id: 1,
+    name: "Economy Room, Annex Building",
+    offer: ["Non-refundable", "Free Wifi", "Breakfast for 2 people"],
+    price: 102,
+    discount: 4,
+    onSite: 106,
+  },
+  {
+    id: 2,
+    name: "Double Room",
+    offer: ["Non-refundable", "Free Wifi", "Breakfast for 2 people"],
+    price: 102,
+    discount: 4,
+    onSite: 106,
+  },
+  {
+    id: 3,
+    name: "Premium Room, Annex Building",
+    offer: ["Non-refundable", "Free Wifi", "Breakfast for 2 people"],
+    price: 102,
+    discount: 4,
+    onSite: 106,
+  },
+];
