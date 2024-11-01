@@ -2,7 +2,7 @@ import { FaStar, FaStarHalf } from "react-icons/fa"
 
 const HotelCategories = () => {
   return (
-    <div className="ml-[100px] mb-10  max-sm:ml-5">
+    <div className="xl:ml-[100px] md:ml-[20px] mb-10  max-sm:ml-5">
      <div className="flex gap-[14px] items-center">
       <span className="text-[#38B245] text-sm bg-[#d6e1d6] rounded-[5px] p-1 font-dm-sans font-medium">5.0</span>
       <span className="text-[#FD9704] text-sm bg-[#e8decf] rounded-[5px] font-dm-sans font-medium p-1">Perfect</span>

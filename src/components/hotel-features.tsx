@@ -8,23 +8,23 @@ const HotelFeatures = () => {
           Hotel features
         </span>
         <div className="flex gap-[48px] items-center max-sm:gap-3">
-          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-sm">
+          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-[12px] max-sm:whitespace-nowrap">
             <Wifi/>
               Wi-fi
           </span>
-          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-sm">
+          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-[12px]">
             <Bath/>
               Bathtub
           </span>
-          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-sm">
+          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-[12px]">
             <Utensils/>
               Breakfast
           </span>
-          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-sm">
+          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-[12px] max-sm:whitespace-nowrap">
             <Bed/>
               Kids bed
           </span>
-          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-sm">
+          <span className="flex items-center gap-[9px] text-md font-font-roboto font-normal max-sm:text-[12px] max-sm:hidden">
             <Grid2X2/>
             4m x 6m
           </span>

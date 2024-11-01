@@ -6,7 +6,7 @@ const HotelAmenities = () => {
        <span className="font-bold font-dm-sans text-2xl">
           Amenities
         </span>
-        <div className="grid grid-cols-2 mt-[36px]">
+        <div className="grid grid-cols-2 mt-[36px] max-sm:grid-cols-1 max-sm:gap-5">
           <div className="flex flex-col gap-[25px]">
             <span className="flex gap-[13px]">
               <Wifi/>

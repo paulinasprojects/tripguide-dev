@@ -6,11 +6,11 @@ import HotelPrice from "./hotel-price";
 
 const HotelPriceSection = () => {
   return (
-    <div className='bg-white w-[407px] h-[846px] rounded-[20px]'>
-      <div className="py-[26px] px-[45px]">
+    <div className='bg-white w-[407px] h-[846px] max-sm:h-[838px] max-sm:w-[335px] rounded-[20px]'>
+      <div className="py-[26px] px-[45px] max-sm:px-[12px]">
         <div className="flex gap-[63px] items-center">
           <div className="flex gap-1.5 items-center">
-            <span className="text-headlineThree font-bold font-dm-sans">$102</span>
+            <span className="text-headlineThree font-bold font-dm-sans max-sm:text-headlineFour">$102</span>
             <span className="text-xl font-normal font-dm-sans text-[#84878B]">/night $119</span>
           </div>
           <div>

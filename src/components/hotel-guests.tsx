@@ -11,7 +11,7 @@ const HotelGuests = () => {
     <div className='flex flex-col gap-[12px]'>
       <label htmlFor="" className='text-md text-[#84878B] font-medium font-dm-sans'>Guests</label>
       <Select>
-        <SelectTrigger className='w-[335px] h-[44px] rounded-[10px] bg-[#F4F5F6]'>
+        <SelectTrigger className='w-[335px] h-[44px] rounded-[10px] bg-[#F4F5F6] max-sm:w-[309px]'>
           <SelectValue placeholder="2 Adults, 1 Child"/>
         </SelectTrigger>
         <SelectContent>

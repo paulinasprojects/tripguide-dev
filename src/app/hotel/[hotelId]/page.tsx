@@ -12,11 +12,11 @@ const HotelDetailsPage = () => {
         <SearchBreadcrumbs
           isNotSearchPage
           hotelDetails='Hotel Details'
-          className='pb-0 pl-[100px] max-sm:pl-5'
+          className='pb-0 xl:pl-[100px] lg:pl-[20px] md:pl-[20px] max-sm:pl-5'
         />
       </div>
       <HotelDetails/>
-      <div className='mx-[100px] mb-10 max-sm:mx-5'>
+      <div className='xl:mx-[100px] md:mx-[20px] mb-10 max-sm:mx-5'>
         <ImageSlider images={propertyImages}/>
       </div>
       <HotelCategories/>

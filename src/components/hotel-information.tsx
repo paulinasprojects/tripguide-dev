@@ -4,9 +4,9 @@ import HotelPriceSection from "./hotel-price-section"
 
 const HotelInformation = () => {
   return (
-    <div className="mx-[100px] mb-[70px]  max-sm:mx-5">
+    <div className="xl:mx-[100px] md:mx-[20px] mb-[70px]  max-sm:mx-5">
       {/* Flex Container */}
-      <div className="flex gap-[91px] max-sm:flex-col">
+      <div className="flex gap-[91px] max-sm:flex-col md:flex-col xl:flex-row">
         {/* Left */}
         <div>
           <div className="flex flex-col gap-[22px]">
@@ -22,7 +22,7 @@ const HotelInformation = () => {
           <HotelAmenities/>
         </div>
         {/* Right */}
-        <div>
+        <div className="max-sm:ml-5">
           <HotelPriceSection/>
         </div>
       </div>
