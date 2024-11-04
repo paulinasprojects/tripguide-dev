@@ -52,6 +52,9 @@ const LatestReviews = () => {
         </div>
       ))}
       </div>
+      <div className="mb-14 text-center">
+        <button className="border-[1px] border-[#B1B5C3] rounded-[47px] px-14 py-2 text-md font-medium font-dm-sans">View All</button>
+      </div>
       </div>
     </div>
   )

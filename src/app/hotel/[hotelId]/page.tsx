@@ -7,6 +7,7 @@ import HotelInformation from '@/components/hotel-information'
 import SelectRoom from '@/components/select-room'
 import HotelReviews from '@/components/hotel-reviews'
 import LatestReviews from '@/components/latest-reviews'
+import TrendingHotels from '@/components/trending-hotels'
 
 const HotelDetailsPage = () => {
   return (
@@ -30,6 +31,9 @@ const HotelDetailsPage = () => {
        <SelectRoom/>
         <HotelReviews/>
         <LatestReviews/>
+      </div>
+      <div className='xl:mx-[135px] md:mx-10 max-sm:mx-5 mb-[91px]'>
+        <TrendingHotels/>
       </div>
     </div>
   )

@@ -492,3 +492,38 @@ export const reviews = [
       "We hod the most spectoculor view. Unfortunately it was very hot in the room from 2-8.30 pm due to no air conditioning and no shade. ",
   },
 ];
+
+export const trendingHotels = [
+  {
+    id: 1,
+    name: "Hotel Sea Crown",
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730713154/greg-rivers-rChFUMwAe7E-unsplash_1_ywzu8t.png",
+    rating: 4.8,
+    reviews: 122,
+  },
+  {
+    id: 2,
+    name: "Long Beach Hotel",
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730715493/image_c6rzvx.png",
+    rating: 4.8,
+    reviews: 122,
+  },
+  {
+    id: 3,
+    name: "Long Beach Hotel",
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730715548/image_apbyrz.png",
+    rating: 4.8,
+    reviews: 122,
+  },
+  {
+    id: 4,
+    name: "Long Beach Hotel",
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730715586/image_bglo2r.png",
+    rating: 4.8,
+    reviews: 122,
+  },
+];
