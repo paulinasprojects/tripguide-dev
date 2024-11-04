@@ -459,3 +459,36 @@ export const selectRoomData = [
     onSite: 106,
   },
 ];
+
+export const reviews = [
+  {
+    id: 1,
+    name: "Patricia W. Fenster",
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730707840/review-avatar_bwd47j.png",
+    location: "Kuwait",
+    date: "25.5.2024",
+    review:
+      "We hod the most spectoculor view. Unfortunately it was very hot in the room from 2-8.30 pm due to no air conditioning and no shade. ",
+  },
+  {
+    id: 2,
+    name: "Maria D. Garcia",
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730707965/review-avatar-1_amytkl.png",
+    location: "Zurich",
+    date: "31.6.2024",
+    review:
+      "We hod the most spectoculor view. Unfortunately it was very hot in the room from 2-8.30 pm due to no air conditioning and no shade. ",
+  },
+  {
+    id: 3,
+    name: "Daniella V. Lopez",
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730707965/review-avatar-2_imtwai.png ",
+    location: "Berlin",
+    date: "17.8.2024",
+    review:
+      "We hod the most spectoculor view. Unfortunately it was very hot in the room from 2-8.30 pm due to no air conditioning and no shade. ",
+  },
+];

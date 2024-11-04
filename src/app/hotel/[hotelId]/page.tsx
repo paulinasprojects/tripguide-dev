@@ -6,6 +6,7 @@ import HotelCategories from '@/components/hotel-categories'
 import HotelInformation from '@/components/hotel-information'
 import SelectRoom from '@/components/select-room'
 import HotelReviews from '@/components/hotel-reviews'
+import LatestReviews from '@/components/latest-reviews'
 
 const HotelDetailsPage = () => {
   return (
@@ -28,6 +29,7 @@ const HotelDetailsPage = () => {
       <div className='xl:ml-[237px] md:ml-10 max-sm:mx-5 md:mx-0'>
        <SelectRoom/>
         <HotelReviews/>
+        <LatestReviews/>
       </div>
     </div>
   )
