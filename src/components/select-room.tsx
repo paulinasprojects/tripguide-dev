@@ -21,8 +21,7 @@ const SelectRoom = () => {
                      {offer}
                      </span>
                     </div>
-                  ))}
-              
+                  ))}          
                 </div>
                 </div>
                 <div>
