@@ -5,10 +5,12 @@ import { cn } from "@/lib/utils";
 interface Props {
   hotelDetails?: string;
   isNotSearchPage?: boolean;
+  bookingPage?: boolean;
+  confirmAndPay?: string;
   className?: string;
 }
 
-const SearchBreadcrumbs = ({hotelDetails, isNotSearchPage, className}: Props) => {
+const SearchBreadcrumbs = ({hotelDetails, isNotSearchPage, className, bookingPage, confirmAndPay}: Props) => {
  
   return (
     <div className={cn(
@@ -22,6 +24,14 @@ const SearchBreadcrumbs = ({hotelDetails, isNotSearchPage, className}: Props) =>
         <div className="flex items-center gap-2">
           <ChevronRight/>
           <Link href="/hotel/1" className="text-sm font-normal font-dm-sans text-[#B1B5C3]">{hotelDetails}</Link>
+        </div>
+      )}
+      {bookingPage && (
+        <div className="flex items-center gap-2">
+           <ChevronRight/>
+           <Link href="/hotel/1" className="text-sm font-normal font-dm-sans text-[#B1B5C3]">{hotelDetails}</Link>
+          <ChevronRight/>
+          <Link href="/confirm-your-booking" className="text-sm font-normal font-dm-sans text-[#B1B5C3]">{confirmAndPay}</Link>
         </div>
       )}
     </div>
