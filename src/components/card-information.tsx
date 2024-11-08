@@ -1,4 +1,10 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 const CardInformation = () => {
+  const router = useRouter();
+
   return (
     <div>
       <div className="flex flex-col gap-[12px]">
@@ -21,7 +27,7 @@ const CardInformation = () => {
           <label htmlFor="checkbox" className="text-md font-medium font-font-roboto">Save Card</label>
         </div>
       </div>
-      <button className="mt-[36px] bg-[#316BFF] text-white rounded-[30px] py-1.5 px-8 text-lg font-medium font-dm-sans">Confirm and Reserve</button>
+      <button className="mt-[36px] bg-[#316BFF] text-white rounded-[30px] py-1.5 px-8 text-lg font-medium font-dm-sans" onClick={() => router.push("/confirm-your-booking/success")}>Confirm and Reserve</button>
     </div>
   )
 }
