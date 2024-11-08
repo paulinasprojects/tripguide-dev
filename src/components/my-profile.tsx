@@ -35,7 +35,7 @@ const MyProfile = () => {
           </div>
         </div>
         <div className='mt-[47px] ml-2'>
-          <button className='flex items-center justify-center gap-[13px] bg-[#878CFF] rounded-[20px] xl:px-20 lg:px-5 md:px-5 max-sm:px-5 py-2 text-[12px] text-white font-medium font-font-roboto'>
+          <button className='flex items-center justify-center gap-[13px] bg-[#878CFF] rounded-[20px] xl:px-20 lg:px-5 md:px-5 max-sm:px-28 py-2 text-[12px] text-white font-medium font-font-roboto'>
             Edit My Data
             <Pencil className='size-[12px]'/>
           </button>

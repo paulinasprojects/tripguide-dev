@@ -7,7 +7,7 @@ const MyProfileSettings = () => {
   return (
     <div>
       <div>
-        <h2 className="text-headlineOne font-bold font-dm-sans">My Profile</h2>
+        <h2 className="lg:text-headlineOne md:text-headlineThree font-bold font-dm-sans max-sm:hidden md:block">My Profile</h2>
       </div>
       <Separator className="my-[30px] xl:w-[787px] lg:w-[350px] md:w-[350px]"/>
       <div className=" bg-white rounded-[20px] | card-box-shadow">
@@ -15,7 +15,7 @@ const MyProfileSettings = () => {
           <div className="flex items-center max-sm:items-start max-sm:flex-col gap-[23px]">
             <span className="lg:text-headlineFour font-medium font-dm-sans md:text-sm">Complete your Profile</span>
             <div className="flex gap-[27px] items-center">
-              <Progress value={70} className="xl:w-[330px] lg:w-[250px] md:w-[150px] max-sm:w-[150px]"/>
+              <Progress value={70} className="xl:w-[330px] lg:w-[250px] md:w-[150px] max-sm:w-[229px]"/>
               <span className="text-headlineFour font-medium font-dm-sans">70%</span>
             </div>
           </div>
