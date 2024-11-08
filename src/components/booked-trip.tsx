@@ -19,7 +19,7 @@ const BookedTrip = () => {
       {/* Flex container */}
         <div className='flex gap-[58px] lg:flex-row md:flex-col max-sm:flex-col'>
           {/* Left */}
-        <div>
+        <div className='max-sm:order-2'>
         <div className='flex gap-[37px] mt-[24px]'>
           <div className='flex items-center gap-1.5'>
           <FaStar className="text-[#FFC542] size-5"/>
@@ -83,7 +83,7 @@ const BookedTrip = () => {
           </div>
           </div>
           {/* Right */}
-          <div className='mt-[52px]'>
+          <div className='mt-[52px] max-sm:order-1'>
               <img src="https://res.cloudinary.com/dymlzmyuo/image/upload/v1730899666/image_rlotmb.png" alt="" />
           </div>
         </div>
