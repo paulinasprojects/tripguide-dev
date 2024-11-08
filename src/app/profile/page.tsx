@@ -4,7 +4,7 @@ import ProfileBreadcrumbs from "@/components/profile-breadcrumbs"
 
 const ProfilePage = () => {
   return (
-    <div className="mx-[137.5px] my-[70px]">
+    <div className="xl:mx-[137.5px] my-[70px] lg:mx-5 max-sm:mx-5 md:mx-5">
       <div>
         <ProfileBreadcrumbs
           href="/profile"
@@ -13,7 +13,7 @@ const ProfilePage = () => {
       </div>
       <div className="mt-[44px]">
         {/* Flex Container */}
-        <div className="flex gap-[33px]">
+        <div className="flex gap-[35px] max-sm:flex-col">
           {/* left */}
           <div>
             <MyProfile/>

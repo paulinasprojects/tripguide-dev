@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-[#FAFAFA]">
       <div>
       {/* CTA */}
-      <div className="bg-blue80 md:mx-20 max-sm:mx-5 md:py-16 max-sm:py-6 px-12  rounded-[16px]">
+      <div className="bg-blue80 md:mx-5 max-sm:mx-5 md:py-16 max-sm:py-6 px-12  rounded-[16px]">
         <div className="flex xl:flex-row items-center justify-evenly max-sm:flex-col md:flex-col md:gap-5 max-sm:gap-5 xl:gap-0">
           <div className="flex flex-col">
             <span className="text-white md:text-[44px] max-sm:text-xl font-extrabold font-font-roboto">Get our pro offers</span>
