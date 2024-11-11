@@ -5,6 +5,7 @@ import TabContent from "./tab-content";
 import AccountTabs from "./account-tabs";
 import PersonalInfo from "./personal-info";
 import Security from "./security";
+import Notifications from "./notifications";
 
 const AccountTabContent = () => {
   const [toggleState, setToggleState] = useState<number>(1);
@@ -16,7 +17,7 @@ const AccountTabContent = () => {
       case 2: 
       return <Security/>;
       case 3: 
-      return <PersonalInfo/>;
+      return <Notifications/>;
       case 4: 
       return <PersonalInfo/>;
       case 5: 

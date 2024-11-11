@@ -14,7 +14,7 @@ const Security = () => {
           </div>
           <button className="mx-auto rounded-[30px] border-[1px] border-[#B1B5C3] px-4 py-1.5 text-sm font-bold font-dm-sans">Update Password</button>
         </div>
-        <Separator className="mt-[46px] mb-10 w-[740px] max-sm:w-[350px]"/>
+        <Separator className="mt-[46px] mb-10 lg:w-[740px] md:w-[500px] max-sm:w-[350px]"/>
           <span className="text-headlineFour font-medium font-dm-sans">Social accounts</span>
           <div className="flex gap-5 mt-[25px] max-sm:flex-col">
           <div className="flex gap-[134px] items-center">
@@ -33,7 +33,7 @@ const Security = () => {
               <SecurityButton label="Connect" className="w-[110px] h-[30px]"/>
           </div>
           </div>
-          <Separator className="mt-[46px] mb-10 w-[740px] max-sm:w-[350px]"/>
+          <Separator className="mt-[46px] mb-10 lg:w-[740px] md:w-[500px] max-sm:w-[350px]"/>
           <span className="text-headlineFour font-medium font-dm-sans">Device history</span>
           <div className="mt-[34px]">
             <div className="flex">
@@ -50,7 +50,7 @@ const Security = () => {
               <SecurityButton label="Log out Device" className="mx-auto w-[140px] h-[38px]"/>
             </div>
           </div>
-          <Separator className="my-[28px] w-[740px] max-sm:w-[350px]"/>
+          <Separator className="my-[28px] lg:w-[740px] md:w-[500px] max-sm:w-[350px]"/>
           <div className="">
             <div className="flex">
               <div className="flex gap-5">
@@ -66,7 +66,7 @@ const Security = () => {
               <SecurityButton label="Log out Device" className="mx-auto w-[140px] h-[38px]"/>
             </div>
           </div>
-          <Separator className="my-[28px] w-[740px] max-sm:w-[350px]"/>
+          <Separator className="my-[28px] lg:w-[740px] md:w-[500px] max-sm:w-[350px]"/>
           <div className="">
             <div className="flex">
               <div className="flex gap-5">
