@@ -1,6 +1,7 @@
 import Image from "next/image"
 import logo from '/public/logo-horizontal.svg';
 import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="bg-[#FAFAFA]">
