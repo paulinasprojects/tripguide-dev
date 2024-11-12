@@ -7,6 +7,7 @@ import PersonalInfo from "./personal-info";
 import Security from "./security";
 import Notifications from "./notifications";
 import PaymentPayout from "./payment-payout";
+import PrivacyAndSharing from "./privacy-and-sharing";
 
 const AccountTabContent = () => {
   const [toggleState, setToggleState] = useState<number>(1);
@@ -22,7 +23,7 @@ const AccountTabContent = () => {
       case 4: 
       return <PaymentPayout/>;
       case 5: 
-      return <PersonalInfo/>;
+      return <PrivacyAndSharing/>;
       case 6: 
       return <PersonalInfo/>;
       default: 
@@ -33,7 +34,7 @@ const AccountTabContent = () => {
 
   return (
     <div>
-      <div className="lg:flex max-sm:flex gap-[65px] max-sm:flex-col md:grid md:grid-cols-2 md:gap-[30px]">
+      <div className="lg:flex max-sm:flex gap-[65px] max-sm:flex-col md:grid md:grid-cols-2 md:gap-[30px] max-sm:gap-10">
         <AccountTabs
           label="Personal Info"
           isActive={toggleState === 1}

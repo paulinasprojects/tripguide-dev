@@ -7,7 +7,7 @@ const AccountSettingsPage = () => {
       <div>
         <ProfileBreadcrumbs
           href="/account-settings"
-          label="Personal Information"
+          label="Account Settings"
         />
       </div>
       <div className="mt-10">

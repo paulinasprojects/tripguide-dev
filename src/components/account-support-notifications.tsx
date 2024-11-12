@@ -22,7 +22,7 @@ const AccountSupportNotifications = () => {
       <span className="text-[12px] text-[#84878B] font-dm-sans font-normal">Receive notifications via mobile phone</span>
     </div>
     <div className="mx-auto">
-    <Switch className=""/>
+    <Switch/>
     </div>
   </div>
   <Separator className="my-[24px] lg:w-[740px] md:w-[500px] max-sm:w-[350px]"/>
@@ -32,7 +32,7 @@ const AccountSupportNotifications = () => {
       <span className="text-[12px] text-[#84878B] font-dm-sans font-normal">Receive notifications on your browser</span>
     </div>
     <div className="mx-auto">
-    <Switch className=""/>
+    <Switch/>
     </div>
   </div>
   </div>

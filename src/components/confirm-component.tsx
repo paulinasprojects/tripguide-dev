@@ -4,10 +4,10 @@ import CardInformation from './card-information'
 import BookingInformationCard from './booking-information-card'
 
 const images = [
-  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730885944/master_card_y5cpaf.png",
-  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730885815/visa_r4hwqx.png",
-  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730726287/american_qzhabg.png",
-  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730885807/american-express_rn7m5s.png",
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1731397416/master_card_uvqo2k.svg",
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1731397317/american_f8t6op.svg",
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1731397356/american_1_bh6myo.svg",
+  "https://res.cloudinary.com/dymlzmyuo/image/upload/v1731397385/american_2_j9dmqh.svg",
 ]
 
 const ConfirmComponent = () => {
