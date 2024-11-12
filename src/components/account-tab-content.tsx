@@ -8,6 +8,7 @@ import Security from "./security";
 import Notifications from "./notifications";
 import PaymentPayout from "./payment-payout";
 import PrivacyAndSharing from "./privacy-and-sharing";
+import Preferences from "./preferences";
 
 const AccountTabContent = () => {
   const [toggleState, setToggleState] = useState<number>(1);
@@ -25,7 +26,7 @@ const AccountTabContent = () => {
       case 5: 
       return <PrivacyAndSharing/>;
       case 6: 
-      return <PersonalInfo/>;
+      return <Preferences/>;
       default: 
       return null
     }
@@ -61,7 +62,7 @@ const AccountTabContent = () => {
           onClick={() => setToggleState(5)}
         />
         <AccountTabs
-          label="Preference"
+          label="Preferences"
           isActive={toggleState === 6}
           onClick={() => setToggleState(6)}
         />
