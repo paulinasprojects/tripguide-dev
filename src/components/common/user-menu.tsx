@@ -31,7 +31,9 @@ const UserMenu = () => {
         <DropdownMenuContent>
           <DropdownMenuItem className="p-4 font-bold font-dm-sans" onClick={() => router.push("/profile")}>Profile</DropdownMenuItem>
           <DropdownMenuItem className="p-4 font-bold font-dm-sans" onClick={() => router.push("/account-settings")}>Account Settings</DropdownMenuItem>
-          <DropdownMenuItem className="p-4 font-bold font-dm-sans">My Reservations</DropdownMenuItem>
+          <DropdownMenuItem className="p-4 font-bold font-dm-sans" onClick={() => router.push("/my-reservations")}>My Reservations</DropdownMenuItem>
+          <DropdownMenuItem className="p-4 font-bold font-dm-sans" onClick={() => router.push("/my-wallet")}>Wallet</DropdownMenuItem>
+          <DropdownMenuItem className="p-4 font-bold font-dm-sans" onClick={() => router.push("/my-rewards")}>Rewards</DropdownMenuItem>
           <DropdownMenuItem>
             <Button size="sm" className="w-full font-bold font-dm-sans text-white bg-blue100">Log out</Button>
           </DropdownMenuItem>
