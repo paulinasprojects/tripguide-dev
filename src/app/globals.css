@@ -175,3 +175,23 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+
+
+.css-t3ipsp-control {
+  border-color: none !important;
+  box-shadow: none !important;
+  border: 1px solid #84878B !important;
+}
+.css-t3ipsp-control:hover {
+  border: 1px solid #84878B !important;
+}
+
+.css-1dimb5e-singleValue {
+  color: #84878B !important;
+}
+
+.css-1dimb5e-singleValue:active {
+  outline: none !important;
+  border-color: #84878B !important;
+}
