@@ -3,7 +3,7 @@
 import { useState } from "react";
 import TabContent from "./tab-content";
 import TotalBookings from "./bookings/total-bookings";
-import UpcomingBookings from "./bookings/upcoming-bookins";
+import UpcomingBookings from "./bookings/upcoming-bookings";
 import CanceledBookings from "./bookings/canceled-bookings";
 import BookingTabs from "./booking-tabs";
 
