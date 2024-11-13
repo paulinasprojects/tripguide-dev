@@ -13,13 +13,13 @@ body {
   --blue-40: hsl(223, 100%, 84%);
   --blue-60: hsl(223, 100%, 76%);
   --blue-80: hsl(223, 100%, 68%);
-  --blue-100:hsl(223, 100%, 60%);
-  --blue-120:hsl(223, 91%, 54%);
+  --blue-100: hsl(223, 100%, 60%);
+  --blue-120: hsl(223, 91%, 54%);
   --baby-blue-20: hsl(200, 50%, 95%);
   --baby-blue-40: hsl(202, 53%, 91%);
   --baby-blue-60: hsl(202, 55%, 86%);
   --baby-blue-80: hsl(201, 54%, 82%);
-  --baby-blue-100:hsl(201, 53%, 76%);
+  --baby-blue-100: hsl(201, 53%, 76%);
   --red-20: hsl(8, 100%, 93%);
   --red-40: hsl(8, 100%, 85%);
   --red-60: hsl(7, 100%, 77%);
@@ -29,17 +29,17 @@ body {
   --purple-40: hsl(238, 100%, 91%);
   --purple-60: hsl(238, 100%, 86%);
   --purple-80: hsl(238, 100%, 81%);
-  --purple-100:hsl(238, 100%, 76%);
+  --purple-100: hsl(238, 100%, 76%);
   --yellow-20: hsl(33, 100%, 93%);
   --yellow-40: hsl(33, 100%, 86%);
   --yellow-60: hsl(33, 100%, 79%);
   --yellow-80: hsl(33, 100%, 72%);
-  --yellow-100:hsl(33, 100%, 65%);
+  --yellow-100: hsl(33, 100%, 65%);
   --black-20: hsl(0, 0%, 82%);
   --black-40: hsl(240, 0%, 64%);
   --black-60: hsl(240, 0%, 45%);
   --black-80: hsl(240, 2%, 27%);
-  --black-100:hsl(240, 5%, 8%);
+  --black-100: hsl(240, 5%, 8%);
   --white-100: hsl(0, 0%, 98%);
   --gray-10: hsl(214, 3%, 53%);
   --gray-20: hsl(216, 12%, 92%);
@@ -48,13 +48,12 @@ body {
   --gray-70: hsl(227, 13%, 73%);
   --gray-80: hsl(225, 10%, 68%);
   --gray-100: hsl(223, 10%, 60%);
-  
 }
 
 .card-box-shadow {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
-
 
 @layer utilities {
   .text-balance {
@@ -143,7 +142,6 @@ body {
   }
 }
 
-
 .modal-background {
   /* position: absolute; */
   position: fixed;
@@ -151,18 +149,19 @@ body {
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(26,26,26, 0.6);
+  background-color: rgb(26, 26, 26, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 99999;
+  z-index: 1;
   overflow: hidden;
 }
 
 .modal-container {
   /* padding: 25px; */
   background-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 30px;
 }
 
@@ -173,6 +172,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
