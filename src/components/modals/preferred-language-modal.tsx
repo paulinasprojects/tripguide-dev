@@ -1,3 +1,4 @@
+import { X } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -5,7 +6,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { X } from "lucide-react";
+
 
 interface Props {
   setOpen: () => void;
