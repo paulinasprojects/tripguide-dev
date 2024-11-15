@@ -13,7 +13,7 @@ const MyWallet = () => {
       <span className="text-headlineOne font-bold font-dm-sans max-sm:text-[30px]">Wallet</span>
       </div>
       <div className='mt-[34px]'>
-       <div className='flex gap-5 max-sm:flex-col'>
+       <div className='flex gap-5 max-sm:flex-col lg:flex-row md:flex-col'>
         <WalletBalance/>
         <WalletTransactions/>
        </div>

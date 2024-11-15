@@ -527,3 +527,26 @@ export const trendingHotels = [
     reviews: 122,
   },
 ];
+
+export const transactionsChipData = [
+  {
+    id: 1,
+    name: "Promo",
+  },
+  {
+    id: 2,
+    name: "Credit",
+  },
+  {
+    id: 3,
+    name: "Debit",
+  },
+  {
+    id: 4,
+    name: "Refunds",
+  },
+  {
+    id: 5,
+    name: "Others",
+  },
+];

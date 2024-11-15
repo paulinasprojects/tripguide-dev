@@ -5,12 +5,12 @@ import { Separator } from "../ui/separator";
 
 const WalletBalance = () => {
   return (
-    <div>
-      <div className="flex flex-col items-center bg-blue100 rounded-tr-[12px] rounded-tl-[12px] md:w-[480px] h-[109px] max-sm:w-[335px]">
+    <div className="">
+      <div className="flex flex-col items-center bg-blue100 rounded-tr-[12px] rounded-tl-[12px]">
         <span className="text-headlineTwo font-medium font-dm-sans text-white pt-2.5">$ 6,824</span>
         <span className="text-white text-headlineFour font-dm-sans font-medium">Wallet Balance</span>
       </div>
-      <div className="bg-white rounded-br-[12px] rounded-bl-[12px] md:w-[480px] max-sm:w-[335px] md:h-[310px] max-sm:h-[247px]">
+      <div className="bg-white rounded-br-[12px] rounded-bl-[12px] ">
         <div className="mx-[32px] pt-[47px] max-sm:mx-5 max-sm:pt-5">
           <div className="flex justify-between" >
             <div className="flex items-center gap-[22px]">
@@ -44,7 +44,7 @@ const WalletBalance = () => {
             </div>
           </div>
           <Separator className="my-[30px] max-sm:my-5"/>
-          <div className="text-center">
+          <div className="text-center pb-5">
           <button className="text-md font-medium font-dm-sans bg-[#F4F5F6] rounded-[10px] px-8 py-2 max-sm:text-[12px] max-sm:px-4">$ 60 Reward Bonus will expire on Jan 24, 2025</button>
           </div>
         </div>
