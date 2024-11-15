@@ -7,7 +7,7 @@ import Bookings from "./bookings";
 
 const WalletTransactions = () => {
   return (
-    <div className="bg-white  rounded-[20px] max-sm:w-[380px]">
+    <div className="bg-white xl:w-[670px] rounded-[20px] max-sm:w-[380px]">
       <div className="my-[26px] mx-[32.5px] max-sm:my-[10px] max-sm:mx-[16px]">
         <div className="flex flex-col gap-[18px]">
         <span className="text-headlineThree font-bold font-dm-sans max-sm:text-[30px]">Wallet Transactions</span>
