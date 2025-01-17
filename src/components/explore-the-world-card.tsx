@@ -7,7 +7,7 @@ const ExploreTheWorldCard = () => {
   return (
   <>
     {exploreTheWorldData.map((data) => (
-    <div className='bg-white rounded-[16px] w-[270px] h-[362px] ' key={data.id}>
+    <div className='bg-white rounded-[16px] w-[270px] h-[362px] cursor-pointer' key={data.id}>
       <div>
         <img src={data.image} alt="" className="rounded-[16px] xl:w-[242px] xl:h-[152px] lg:w-[200px] lg:h-[152px] m-3 object-cover" />
       </div>
@@ -20,7 +20,7 @@ const ExploreTheWorldCard = () => {
           <span className="text-lg font-medium font-dm-sans text-[#3B3E44]">{data.title}</span>
           <span className="text-sm font-dm-sans font-medium text-[#84878B]">{data.killomitters}{" "}km to Town Center</span>
         </div>
-        <button className="w-[65px] h-[30px] text-white bg-blue80 text-md font-bold font-dm-sans rounded-[6px]">${data.price}</button>
+        <span className="w-[65px] h-[30px] text-white text-center pt-0.5 bg-blue80 text-md font-bold font-dm-sans rounded-[6px]">${data.price}</span>
       </div>
       <div className="mt-[14px] flex flex-col gap-[7px] mx-3">
         <div className="flex items-center gap-1.5">

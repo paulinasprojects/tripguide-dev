@@ -42,27 +42,27 @@ const Footer = () => {
           <div className="flex md:flex-row max-sm:flex-col md:items-center gap-20 max-sm:order-1">
             <div className="flex flex-col gap-[14px]">
               <span className="text-headlineFour font-dm-sans font-medium text-[#222529]">Services</span>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Travel Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Flight Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Car Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Fivestart Hotel</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Travel</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Travel Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Flight Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Car Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Fivestart Hotel</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Travel</Link>
             </div>
             <div className="flex flex-col gap-[14px]">
               <span className="text-headlineFour font-dm-sans font-medium text-[#222529]">Support</span>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Travel Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Flight Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Car Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Fivestart Hotel</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Travel</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Travel Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Flight Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Car Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Fivestart Hotel</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Travel</Link>
             </div>
             <div className="flex flex-col gap-[14px] max-sm:mb-10 md:mb-0">
               <span className="text-headlineFour font-dm-sans font-medium text-[#222529]">Business</span>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Travel Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Flight Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Car Booking</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Fivestart Hotel</Link>
-              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans">Travel</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Travel Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Flight Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Car Booking</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Fivestart Hotel</Link>
+              <Link href="/" className="text-md text-[#84878B] font-medium font-dm-sans hover:text-[#222529]">Travel</Link>
             </div>
           </div>
         </div>

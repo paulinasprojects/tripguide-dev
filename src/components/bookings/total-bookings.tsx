@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const TotalBookings = () => {
   return (
@@ -54,9 +55,9 @@ const TotalBookings = () => {
           {/* Right */}
             <div className="flex flex-col items-center gap-[12px] max-sm:items-start max-sm:order-1">
               <span className="text-headlineFour font-medium font-dm-sans">USD 1,950.00</span>
-              <span className="text-md font-font-roboto font-normal text-[#6c94fe]">Booking Conditions</span>
-              <button className="bg-[#F4F5F6] rounded-[10px] text-[#3B3E44] text-xl font-normal font-dm-sans px-11 py-2">Manage booking</button>
-              <button className="rounded-[10px] text-white text-xl font-bold font-dm-sans px-16 py-2 bg-[#316BFF]">Book again</button>
+              <Link href="#" className="text-md font-font-roboto font-medium text-[#6c94fe] hover:underline">Booking Conditions</Link>
+              <button className="bg-[#F4F5F6] rounded-[10px] text-[#3B3E44] text-xl font-normal font-dm-sans px-11 py-2 hover:bg-[#c8c9ca]">Manage booking</button>
+              <button className="rounded-[10px] text-white text-xl font-bold font-dm-sans px-16 py-2 bg-[#316BFF] hover:bg-black">Book again</button>
             </div>
         </div>
       </div>

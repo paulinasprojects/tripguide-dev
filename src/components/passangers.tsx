@@ -22,7 +22,7 @@ const Passangers = () => {
 
 
   return (
-    <div className=''>
+    <div className='cursor-pointer'>
           <div onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
             <span className='text-[#3B3E44] flex items-center gap-2 text-lg font-medium font-dm-sans mt-1.5'>
               {totalCount} Passengers

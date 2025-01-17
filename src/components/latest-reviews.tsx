@@ -42,9 +42,9 @@ const LatestReviews = () => {
                   {review.review}
                 </span>
                 <div className="flex lg:gap-[32px] md:gap-3 max-sm:gap-[32px]">
-                  <button className="text-[#316BFF] text-md font-medium font-dm-sans rounded-[30px] bg-[#e8effc] px-4 py-1.5">Comment</button>
-                  <button className="text-[#316BFF] text-md font-medium font-dm-sans rounded-[30px] bg-[#e8effc] lg:px-14 py-0.5 max-sm:px-5 md:px-5">Like</button>
-                  <button className="text-[#316BFF] text-md font-medium font-dm-sans rounded-[30px] bg-[#e8effc] lg:px-14 py-1.5 max-sm:px-5 md:px-5">Reply</button>
+                  <button className="text-[#316BFF] text-md font-medium font-dm-sans rounded-[30px] bg-[#e8effc] px-4 py-1.5 hover:bg-[#316BFF] hover:text-white">Comment</button>
+                  <button className="text-[#316BFF] text-md font-medium font-dm-sans rounded-[30px] bg-[#e8effc] lg:px-14 py-0.5 max-sm:px-5 md:px-5 hover:bg-[#316BFF] hover:text-white">Like</button>
+                  <button className="text-[#316BFF] text-md font-medium font-dm-sans rounded-[30px] bg-[#e8effc] lg:px-14 py-1.5 max-sm:px-5 md:px-5 hover:bg-[#316BFF] hover:text-white">Reply</button>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const LatestReviews = () => {
       ))}
       </div>
       <div className="mb-14 text-center">
-        <button className="border-[1px] border-[#B1B5C3] rounded-[47px] px-14 py-2 text-md font-medium font-dm-sans">View All</button>
+        <button className="border-[1px] border-[#B1B5C3] rounded-[47px] px-14 py-2 text-md font-medium font-dm-sans hover:bg-black hover:text-white">View All</button>
       </div>
       </div>
     </div>

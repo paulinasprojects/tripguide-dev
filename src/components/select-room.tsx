@@ -30,7 +30,7 @@ const SelectRoom = () => {
                   <div className="flex flex-col items-center">
                     <span className="ml-auto text-[#FFAF4E] font-medium font-dm-sans">Save ${room.discount}</span>
                     <span className="text-[12px] text-[#84878B] font-dm-sans font-normal">on TripGuide.com ${room.onSite}</span>
-                    <button className="ml-auto mt-[19px] text-lg text-white font-medium font-dm-sans bg-[#316BFF] rounded-[10px] px-3 py-2">Select</button>
+                    <button className="ml-auto mt-[19px] text-lg text-white font-medium font-dm-sans bg-[#316BFF] rounded-[10px] px-3 py-2 hover:bg-black">Select</button>
                   </div>
                 </div>
               </div>

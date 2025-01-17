@@ -11,7 +11,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
-import { CalendarIcon } from "lucide-react"
 
 interface Props {
   className?: string
@@ -30,8 +29,7 @@ export const DatePicker = ({className}: Props) => {
             !date && "text-muted-foreground",className
           )}
         >
-        {!date && <CalendarIcon/>}
-        {date ? format(date, "PPP") : <span className="mt-7 text-[#B1B5C3] text-md font-normal font-dm-sans"></span>}
+        {date ? format(date, "PPP") : <span className=" text-[#B1B5C3] text-md font-normal font-dm-sans"></span>}
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-auto p-0">

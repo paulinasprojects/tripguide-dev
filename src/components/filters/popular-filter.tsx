@@ -15,7 +15,7 @@ const PopularFilter = () => {
           label={filter.label}
         />
       ))}
-        <span className="text-[#145CE6] font-medium text-md font-dm-sans">See More</span>
+        <span className="text-[#145CE6] font-medium text-md font-dm-sans cursor-pointer">See More</span>
         <Separator className="mt-[15px]"/>
     </>
   )

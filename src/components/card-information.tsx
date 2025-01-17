@@ -23,11 +23,11 @@ const CardInformation = () => {
       </div>
       <div className="mt-5">
         <div className="flex items-center gap-2">
-          <input type="checkbox" id="checkbox" className="size-6 rounded-[5px] accent-blue80"  />
+          <input type="checkbox" id="checkbox" className="size-6 rounded-[5px] accent-blue80 cursor-pointer"  />
           <label htmlFor="checkbox" className="text-md font-medium font-font-roboto">Save Card</label>
         </div>
       </div>
-      <button className="mt-[36px] bg-[#316BFF] text-white rounded-[30px] py-1.5 px-8 text-lg font-medium font-dm-sans" onClick={() => router.push("/confirm-your-booking/success")}>Confirm and Reserve</button>
+      <button className="mt-[36px] bg-[#316BFF] text-white rounded-[30px] py-1.5 px-8 text-lg font-medium font-dm-sans hover:bg-black" onClick={() => router.push("/confirm-your-booking/success")}>Confirm and Reserve</button>
     </div>
   )
 }

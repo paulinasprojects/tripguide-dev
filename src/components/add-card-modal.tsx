@@ -117,7 +117,7 @@ const onSubmit = async (values: z.infer<typeof cardSchema>) => {
                   />
                 </div>
                   <div className="mt-[45px]">
-                    <button className="bg-blue100 text-white rounded-[30px] px-16 py-2 text-xl font-medium font-dm-sans" type="submit" >Save</button>
+                    <button className="bg-blue100 text-white rounded-[30px] px-16 py-2 text-xl font-medium font-dm-sans hover:bg-black" type="submit" >Save</button>
                   </div>
               </form>
             </Form>

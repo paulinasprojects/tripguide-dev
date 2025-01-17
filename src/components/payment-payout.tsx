@@ -21,7 +21,7 @@ const PaymentPayout = () => {
           </div>
           {/* right */}
           <div className="max-sm:order-1">
-            <button onClick={toggleModal} className="bg-blue100 text-white p-3 rounded-[30px] text-sm font-bold font-dm-sans">Add payment method</button>
+            <button onClick={toggleModal} className="bg-blue100 text-white p-3 rounded-[30px] text-sm font-bold font-dm-sans hover:bg-black">Add payment method</button>
           </div>
         </div>
 

@@ -28,7 +28,7 @@ const PreferredTimeZoneModal = ({setOpen}: Props) => {
               <TimezoneSelect value={selectedTimezone} onChange={setSelectedTimezone} className="w-[356px] h-[48px] rounded-[10px]  !text-[#84878B] !font-normal !font-dm-sans" placeholder="Time zone" />
             </div>
             <div className="mt-[17px]">
-              <button className="rounded-[6px] text-white bg-[#2756cc] px-5 py-2 text-md font-bold font-dm-sans" onClick={setOpen}>Save</button>
+              <button className="rounded-[6px] text-white bg-[#2756cc] px-5 py-2 text-md font-bold font-dm-sans hover:bg-black" onClick={setOpen}>Save</button>
             </div>
           </div>
         </div>

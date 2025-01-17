@@ -67,11 +67,11 @@ const Hoteltab = () => {
       </DropdownMenu>
       <div className='flex md:gap-2 max-sm:gap-7'>
       <div className='relative'>
-        <label htmlFor="" className='absolute top-2 left-4 text-lg font-medium font-dm-sans'>Check in</label>
+        <label htmlFor="" className='absolute top-1 left-4 text-md  font-medium font-dm-sans'>Check in</label>
         <DatePicker/>
       </div>
       <div className='relative'>
-        <label className="absolute top-2 left-4 text-lg font-medium font-dm-sans">Check out</label>
+        <label className="absolute top-1 left-4 text-md font-medium font-dm-sans">Check out</label>
         <DatePicker/>
       </div>
       </div>

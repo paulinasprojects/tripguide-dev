@@ -12,7 +12,7 @@ const Security = () => {
             <span className="text-sm font-medium font-dm-sans">Password</span>
             <span className="text-[12px] font-medium font-dm-sans text-[#84878B]">Last updated 1 month ago</span>
           </div>
-          <button className="mx-auto rounded-[30px] border-[1px] border-[#B1B5C3] px-4 py-1.5 text-sm font-bold font-dm-sans">Update Password</button>
+          <button className="mx-auto rounded-[30px] border-[1px] border-[#B1B5C3] px-4 py-1.5 text-sm font-bold font-dm-sans hover:bg-black hover:text-white">Update Password</button>
         </div>
         <Separator className="mt-[46px] mb-10 lg:w-[740px] md:w-[500px] max-sm:w-[350px]"/>
           <span className="text-headlineFour font-medium font-dm-sans">Social accounts</span>

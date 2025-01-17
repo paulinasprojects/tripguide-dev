@@ -210,8 +210,8 @@ const PersonalInfoForm = () => {
             />
           </div>
           <div className='flex items-center gap-[55px] mt-10'>
-            <button className='rounded-[30px] bg-blue100 text-white px-6 py-3 text-md font-bold font-dm-sans' type='submit'>Update Profile</button>
-            <button className='border-none outline-none text-md font-bold font-dm-sans text-[#84878B]'>Cancel</button>
+            <button className='rounded-[30px] bg-blue100 text-white px-6 py-3 text-md font-bold font-dm-sans hover:bg-black' type='submit'>Update Profile</button>
+            <button className='border-none outline-none text-md font-bold font-dm-sans text-[#84878B] hover:text-[#aeaeae]'>Cancel</button>
           </div>
         </form>
       </Form>

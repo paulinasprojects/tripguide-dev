@@ -1,5 +1,6 @@
 import { FaStar } from "react-icons/fa"
 import { Separator } from "./ui/separator"
+import Link from "next/link"
 
 const BookingInformationCard = () => {
   return (
@@ -56,7 +57,7 @@ const BookingInformationCard = () => {
           <span className="text-md font-medium font-dm-sans">$833</span>
         </div>
         <div className="mt-[30px] text-center">
-          <span className="text-[#B1B5C3] text-sm font-medium font-dm-sans">Report this property</span>
+          <Link href="#" className="text-[#B1B5C3] text-sm font-medium font-dm-sans hover:underline">Report this property</Link>
         </div>
       </div>
     </div>

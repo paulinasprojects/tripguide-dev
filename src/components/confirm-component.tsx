@@ -22,10 +22,10 @@ const ConfirmComponent = () => {
             <Separator className='mt-[24px]'/>
           </div>
           <div className='flex flex-col mt-10'>
-            <span className='text-headlineThree font-bold font-dm-sans'>Your Tour</span>
+            <span className='text-headlineThree font-bold font-dm-sans'>Your Tour Information</span>
             <div className='flex flex-col gap-[16px] mt-[30px] mb-10'>
-              <input type="text" placeholder='June 27 - 30, 2020' className='bg-[#F4F4F6] rounded-[15px] p-5 w-[470px] h-[63px] max-sm:w-[370px]' />
-              <input type="text" placeholder='1 passanger' className='bg-[#F4F4F6] rounded-[15px] p-5 w-[470px] h-[63px] max-sm:w-[370px]' />
+              <span className='text-headlineFour font-bold font-dm-sans'>Dates: June 27-30, 2024</span>
+              <span className='text-headlineFour font-bold font-dm-sans'>Guests: 2 guests</span>
             </div>
             <div className='mb-[31px]'>
               <span className='text-headlineThree font-bold font-dm-sans'>Credit Cards</span>

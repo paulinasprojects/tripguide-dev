@@ -39,7 +39,7 @@ const PreferredCurrencyModal = ({setOpen}: Props) => {
               </Select> 
             </div>
             <div className="mt-5">
-              <button className="rounded-[6px] text-white bg-[#2756cc] px-5 py-2 text-md font-bold font-dm-sans" onClick={setOpen}>Save</button>
+              <button className="rounded-[6px] text-white bg-[#2756cc] px-5 py-2 text-md font-bold font-dm-sans hover:bg-black" onClick={setOpen}>Save</button>
             </div>
           </div>
         </div>

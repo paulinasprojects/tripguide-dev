@@ -58,7 +58,7 @@ const ImageSlider = ({images}: Props) => {
           src={image}
           alt=""
           key={index}
-          className="h-[200px] rounded-[10px] object-cover"
+          className="h-[200px] rounded-[10px] object-cover cursor-pointer"
           onClick={() => setImageIndex(index + 1)}
         />
       ))}

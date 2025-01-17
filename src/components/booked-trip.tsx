@@ -36,11 +36,11 @@ const BookedTrip = () => {
         <div className='mt-[24px] flex gap-10'>
           <div className='flex flex-col bg-[#F4F4F6] rounded-[12px] px-4 py-2'>
             <span className='text-sm font-medium font-dm-sans'>Dates</span>
-            <span className='text-[#84878B] text-md font-dm-sans font-medium'>May 15 - 22, 2021</span>
+            <span className='text-[#84878B] text-md font-dm-sans font-medium'>June 27 - 30, 2024</span>
           </div>
           <div className='flex flex-col bg-[#F4F4F6] rounded-[12px] px-6 py-2'>
-            <span className='text-sm font-medium font-dm-sans'>Travelers</span>
-            <span className='text-[#84878B] text-md font-dm-sans font-medium'>1 passanger</span>
+            <span className='text-sm font-medium font-dm-sans'>Guests</span>
+            <span className='text-[#84878B] text-md font-dm-sans font-medium'>2 guests</span>
           </div>
         </div>
         <div className='mt-[30px] bg-[#F4F4F6]'>
@@ -59,7 +59,7 @@ const BookedTrip = () => {
                   <Calendar className='size-4'/>
                   Date
                 </span>
-                <span className='text-md font-medium font-dm-sans'>30 Apr, 2021</span>
+                <span className='text-md font-medium font-dm-sans'>27 Jun, 2024</span>
               </div>
               <div className='flex items-center justify-between'>
                 <span className='flex items-center gap-2 text-[#84878B]'>
@@ -79,7 +79,7 @@ const BookedTrip = () => {
           </div>
         </div>
           <div className='mt-[30px]'>
-            <button className='bg-[#316BFF] text-white rounded-[30px] px-6 py-5 text-lg font-bold font-dm-sans' onClick={() => router.push("/")}>Go To Your Home</button>
+            <button className='bg-[#316BFF] text-white rounded-[30px] px-6 py-5 text-lg font-bold font-dm-sans hover:bg-black' onClick={() => router.push("/")}>Go To Your Home</button>
           </div>
           </div>
           {/* Right */}

@@ -18,8 +18,8 @@ const HotelReviews = () => {
           <textarea className="lg:w-[970px] h-[134px] md:w-[720px] max-sm:w-[400px] rounded-[12px] resize-none pt-5 pl-5 bg-[#F4F5F6]" placeholder="Write your detailed review here..."/>
         </div>
         <div className="ml-auto flex items-center gap-5 mt-5">
-          <button className="bg-[#F4F5F6] py-1.5 px-4 rounded-[10px] font-bold text-md text-[#84878B] font-dm-sans">Cancel</button>
-          <button className="py-1.5 px-4 rounded-[10px] bg-[#316BFF] text-white font-bold text-md font-dm-sans">Submit</button>
+          <button className="bg-[#F4F5F6] py-1.5 px-4 rounded-[10px] font-bold text-md text-[#84878B] font-dm-sans hover:text-[#aeaeae]">Cancel</button>
+          <button className="py-1.5 px-4 rounded-[10px] bg-[#316BFF] text-white font-bold text-md font-dm-sans hover:bg-black">Submit</button>
         </div>
       </div>
     </div>

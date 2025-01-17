@@ -34,7 +34,7 @@ const HotelPrice = () => {
         <span className="font-font-roboto font-medium text-md text-[#353945]">$300</span>
       </div>
       <div className="mt-5 text-center">
-        <button className="text-white bg-[#2756cc] rounded-[10px] text-xl font-medium font-dm-sans px-[100px] py-3" onClick={() => router.push("/confirm-your-booking")}>Book Now</button>
+        <button className="text-white bg-[#2756cc] rounded-[10px] text-xl font-medium font-dm-sans px-[100px] py-3 hover:bg-black" onClick={() => router.push("/confirm-your-booking")}>Book Now</button>
       </div>
     </div>
   )

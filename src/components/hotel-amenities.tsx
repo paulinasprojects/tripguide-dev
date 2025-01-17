@@ -45,7 +45,7 @@ const HotelAmenities = () => {
           </div>
         </div>
         <div className="mt-[57px]">
-          <button className="bg-[#316BFF] text-white rounded-[30px] px-4 py-2 text-md font-dm-sans font-medium">More details</button>
+          <button className="bg-[#316BFF] text-white rounded-[30px] px-4 py-2 text-md font-dm-sans font-medium hover:bg-black">More details</button>
         </div>
     </div>
   )

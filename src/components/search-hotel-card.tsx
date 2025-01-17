@@ -60,7 +60,7 @@ const SearchHotelCard = () => {
                 <span className="text-[28px] lg:text-[28px] font-bold font-dm-sans max-sm:text-lg md:text-lg">${data.price}</span> 
                 <span className="text-md font-dm-sans text-[#84878B]">For Two</span>
               </div>
-              <button className="bg-blue100 text-white rounded-[30px] lg:px-7 lg:py-3 lg:text-xl font-medium font-dm-sans max-sm:px-5 max-sm:py-2 md:px-5 md:py-2 md:text-md max-sm:text-sm">Book now</button>
+              <button className="bg-blue100 text-white rounded-[30px] lg:px-7 lg:py-3 lg:text-xl font-medium font-dm-sans max-sm:px-5 max-sm:py-2 md:px-5 md:py-2 md:text-md max-sm:text-sm hover:bg-black">Book now</button>
             </div>
           </div>
           </div>
@@ -68,7 +68,7 @@ const SearchHotelCard = () => {
       </div>
       ))}
       <div className="my-14 text-center">
-        <button className="border-[1px] border-[#B1B5C3] rounded-[47px] px-14 py-2 text-md font-medium font-dm-sans">View All</button>
+        <button className="border-[1px] border-[#B1B5C3] rounded-[47px] px-14 py-2 text-md font-medium font-dm-sans hover:bg-black hover:text-white">View All</button>
       </div>
     </div>
   )
