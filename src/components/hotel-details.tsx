@@ -3,7 +3,7 @@ import { Flag } from 'lucide-react';
 
 const HotelDetails = () => {
   return (
-    <div className='mt-[25px] flex flex-col gap-[25px] xl:ml-[100px] lg:ml-[20px] mb-10 max-sm:ml-5'>
+    <div className='mt-[25px] flex flex-col gap-[25px] xl:ml-[100px] lg:ml-[20px] mb-10 md:ml-5 max-sm:ml-5'>
         <h3 className='text-headlineOne max-sm:text-[28px] font-medium font-font-roboto'>Entire rental unit in Opfikon</h3>
         <div className='flex gap-5'>
           <div className='flex gap-1.5 items-center'>

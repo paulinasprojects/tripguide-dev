@@ -12,7 +12,7 @@ const Header = () => {
           <Image
             src={logo}
             alt="logo"
-            className="lg:w-[148px] lg:h-[38px] max-sm:w-[96px] max-sm:h-[28px]"
+            className="lg:w-[148px] lg:h-[38px] md:w-[148px] max-sm:w-[96px] max-sm:h-[28px]"
           />
         </Link>
       <div className="flex items-center gap-5">

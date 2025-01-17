@@ -29,7 +29,7 @@ const Footer = () => {
               <Image
                 src={logo}
                 alt="logo"
-                className="lg:w-[148px] lg:h-[38px] max-sm:w-[96px] max-sm:h-[28px]"
+                className="lg:w-[148px] lg:h-[38px] md:w-[148px] max-sm:w-[96px] max-sm:h-[28px]"
               />
             </div>
             <span className="text-md text-[#84878B] font-normal font-dm-sans hidden lg:block">
