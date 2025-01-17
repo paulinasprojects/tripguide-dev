@@ -8,7 +8,7 @@ const TrendingCities = () => {
         <h2 className="text-headlineOne max-sm:text-[30px] font-bold font-dm-sans text-[#141416]">Trending Cities</h2>
         <span className="text-md font-normal font-dm-sans text-[#3B3E44]">The most searched for cities on TripGuide</span>
       </div>
-      <div className='mt-[50px] grid lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1 gap-x-0 gap-y-10 place-items-center'>
+      <div className='mt-[50px] grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1 gap-x-0 gap-y-10 place-items-center'>
         <TrendingCitiesCard/>
       </div>
     </div>
