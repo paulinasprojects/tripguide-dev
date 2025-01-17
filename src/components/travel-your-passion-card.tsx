@@ -7,7 +7,7 @@ const TravelYourPassionCard = () => {
       {travelYourPassionData.map((data) => (
         <div key={data.id}>
           <div className="relative">
-            <img src={data.image} alt="" className="xl:w-[320px] xl:h-[324px] md:w-[250px] md:h-[300px] max-sm:w-[270px] max-sm:h-[324px] rounded-[20px] object-cover cursor-pointer" />
+            <img src={data.image} alt="" className="xl:w-[320px] xl:h-[324px] md:w-[250px] md:h-[300px] max-sm:w-[350px] max-sm:h-[324px] rounded-[20px] object-cover cursor-pointer" />
             <div className="">
               <span className="absolute bottom-10 left-5 text-white text-headlineFour font-dm-sans font-bold">{data.title}</span>
               <div className="absolute bottom-4 left-5">
