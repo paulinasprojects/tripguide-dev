@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { searchHotelsData, accomodationsData } from "@/lib/data";
-import { TbPlane } from "react-icons/tb";
 import { Calendar, Flag, MapPin } from "lucide-react";
 
 const SearchHotelCard = () => {
@@ -38,13 +37,7 @@ const SearchHotelCard = () => {
               {data.dates}
             </span>
           </div>
-          <div className="mt-[16px]">
-            <span className="flex items-center gap-2 text-md font-dm-sans font-normal">
-              <TbPlane className="size-6 text-[#84878B]"/>
-              Departure from {data.departure}
-            </span>
-          </div> 
-          <div className="flex items-center justify-between mt-[41px] md:gap-5 lg:gap-0 max-sm:flex-col max-sm:items-start">
+          <div className="flex items-center justify-between mt-[30px] md:gap-5 lg:gap-0 max-sm:flex-col max-sm:items-start">
             <div className="flex flex-col gap-1.5">
             {accomodationsData.map((data, index) => (
               <div key={index} className="">

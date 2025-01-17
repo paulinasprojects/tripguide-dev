@@ -3,7 +3,7 @@ const FeaturedDestinationCard = () => {
     <div>
       <div className="flex md:flex-row xl:gap-[30px] lg:gap-0 items-center justify-center mt-[50px] max-sm:flex-col max-sm:gap-5">
         {/* Left */}
-        <div className="flex flex-col gap-[29px] lg:p-5 md:p-5">
+        <div className="flex flex-col gap-[29px] lg:p-5 md:p-5 cursor-pointer">
           <div className="relative">
             <img src="https://res.cloudinary.com/dymlzmyuo/image/upload/v1730103093/barelona-two_qycxxz.jpg" alt="" className="large-card" />
             <span className="absolute top-5 left-5 text-red100 text-lg font-bold font-dm-sans px-4 rounded-[20px] bg-white100">3.5</span>
@@ -41,7 +41,7 @@ const FeaturedDestinationCard = () => {
           </div>
         </div>
         {/* Right */}
-        <div className="flex flex-col gap-[27px] md:p-5 lg:p-5 xl:p-0">
+        <div className="flex flex-col gap-[27px] md:p-5 lg:p-5 xl:p-0 cursor-pointer">
           <div className="relative">
             <img src="https://res.cloudinary.com/dymlzmyuo/image/upload/v1729963616/australia_fg2rdv.jpg" alt="" className="small-card" />
             <span className="absolute top-5 left-5 text-red100 text-[13.36px] font-bold font-dm-sans px-3 rounded-[20px] bg-white100">3.5</span>

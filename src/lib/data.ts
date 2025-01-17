@@ -367,7 +367,6 @@ export const searchHotelsData = [
     location: "Zurich, Switzerland",
     hotelName: "Zurich Hotel, Switzerland",
     dates: "15.05.2021-16.05.2021",
-    departure: "Zurich",
     price: 320,
   },
   {
@@ -380,7 +379,6 @@ export const searchHotelsData = [
     location: "Zurich, Switzerland",
     hotelName: "Zurich Hotel, Switzerland",
     dates: "15.05.2021-16.05.2021",
-    departure: "Zurich",
     price: 320,
   },
   {
@@ -393,7 +391,42 @@ export const searchHotelsData = [
     location: "Zurich, Switzerland",
     hotelName: "Zurich Hotel, Switzerland",
     dates: "15.05.2021-16.05.2021",
-    departure: "Zurich",
+    price: 320,
+  },
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1737112641/image_uz0s8k.png",
+    name: "Mykonos Greece",
+    rating: 4.8,
+    reviews: 122,
+    location: "Mykonos, Greece",
+    hotelName: "Mykonos Hotel, Greece",
+    dates: "15.05.2021-16.05.2021",
+    price: 320,
+  },
+  {
+    id: 5,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1737113282/image_w7q7ha.png",
+    name: "Positano Italy",
+    rating: 4.8,
+    reviews: 122,
+    location: "Positano, Italy",
+    hotelName: "Positano Hotel, Italy",
+    dates: "15.05.2021-16.05.2021",
+    price: 320,
+  },
+  {
+    id: 6,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1737114626/image_l93b43.png",
+    name: "Paris France",
+    rating: 4.8,
+    reviews: 122,
+    location: "Paris, France",
+    hotelName: "Paris Hotel, Switzerland",
+    dates: "15.05.2021-16.05.2021",
     price: 320,
   },
 ];
