@@ -40,7 +40,7 @@ const ProfileSettingsForm = () => {
         <form onSubmit={form.handleSubmit(onSubmit)}>
           <div className='mt-10 flex items-center justify-between'>
             <span className='text-headlineFour font-medium font-dm-sans'>Hi I&apos;m Jonathan Doe</span>
-            <button className='border-2 border-[#E7ECF3] text-sm font-dm-sans font-medium rounded-[20px] px-4 py-1.5' type='submit'>Edit your Profile</button>
+            <button className='border-2 border-[#E7ECF3] text-sm font-dm-sans font-medium rounded-[20px] px-4 py-1.5 hover:bg-black hover:text-white' type='submit'>Edit your Profile</button>
           </div>
           <div className='mt-10 flex gap-[38px] max-sm:flex-col'>
             <FormField

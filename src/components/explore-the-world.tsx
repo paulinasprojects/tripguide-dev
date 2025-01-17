@@ -7,7 +7,7 @@ const ExploreTheWorld = () => {
         <h2 className="text-headlineOne max-sm:text-[30px] font-bold font-dm-sans text-[#141416]">Explore The World</h2>
         <span className="text-md font-normal font-dm-sans text-[#84878B]">10,788 beautiful places to go</span>
       </div>
-      <div className="lg:flex max-sm:flex lg:flex-row md:grid md:grid-cols-2 max-sm:flex-col md:gap-[30px] max-sm:gap-[30px] items-center justify-center mt-[50px] md:ml-[50px] lg:ml-0">
+      <div className="lg:flex max-sm:flex lg:flex-row md:grid md:grid-cols-2 max-sm:flex-col md:gap-[30px] max-sm:gap-[30px] items-center justify-center mt-[50px] md:ml-[50px] lg:ml-0 lg:px-5 xl:px-0">
       <ExploreTheWorldCard/>
       </div>
     </div>
