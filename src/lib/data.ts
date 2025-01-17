@@ -583,3 +583,27 @@ export const transactionsChipData = [
     name: "Others",
   },
 ];
+
+export const topTourCardData = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1729963616/tokyo_so1nui.jpg",
+    country: "Japan",
+    city: "Tokyo",
+  },
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1729963617/barcelona_o3go0f.jpg",
+    country: "Barcelona",
+    city: "Spain",
+  },
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/dymlzmyuo/image/upload/v1730106716/bali_g343kz.jpg",
+    country: "Indonesia",
+    city: "Bali",
+  },
+];

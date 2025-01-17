@@ -1,3 +1,6 @@
+"use client";
+
+import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 interface PlacesCardProps  {
@@ -9,8 +12,10 @@ interface PlacesCardProps  {
 
 
 const PlacesCard = ({isActive, image, title, destinations }: PlacesCardProps) => {
+  const router = useRouter();
+
   return (
-    <div className={cn("flex flex-col gap-[18px] border-[1px] border-[#E7ECF3]  pb-4 lg:px-0 md:px-10 max-sm:px-10 rounded-[10px] cursor-pointer", isActive && "bg-white border-none cursor-pointer")}>
+    <div className={cn("flex flex-col gap-[18px] border-[1px] border-[#E7ECF3]  pb-4 lg:px-0 md:px-10 max-sm:px-10 rounded-[10px] cursor-pointer", isActive && "bg-white border-none cursor-pointer")} onClick={() => router.push("/search")}>
       <div className="mt-7 ml-7">
         <img
           src={image}
